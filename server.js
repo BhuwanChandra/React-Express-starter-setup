@@ -6,7 +6,7 @@ const port = 5000;
 
 app.get('/api/customers',(req, res) => {
     const customers = [
-        { id: 1, firstName: "John", lastName: 'Doe'},
+        { id: 1, firstName: "John", lastName: 'Walker'},
         { id: 2, firstName: "Steve", lastName: 'Smith'},
         { id: 3, firstName: "Ron", lastName: 'Wisely'}
     ];
